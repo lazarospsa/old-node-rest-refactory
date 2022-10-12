@@ -1,0 +1,37 @@
+{
+  "name": "nodejs_restapi_jwt",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "This project made as boilerplate to build nodejs with jwt auth and mongo as database",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lazarospsa/nodejs_restapi_jwt.git"
+  },
+  "keywords": [
+    "nodejs",
+    "restapi",
+    "jwt"
+  ],
+  "author": "Lazaros Psarokostas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lazarospsa/nodejs_restapi_jwt/issues"
+  },
+  "homepage": "https://github.com/lazarospsa/nodejs_restapi_jwt#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.10.15",
+    "nodemon": "^2.0.6",
+    "uuid": "^9.0.0"
+  }
+}
